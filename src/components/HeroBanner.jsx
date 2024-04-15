@@ -1,6 +1,5 @@
 import { Box, Stack, Typography, Button} from '@mui/material'
-
-import { HeroBannerImage} from '../assets/images/banner.png'
+import  HeroBannerImage from '../assets/images/banner.png'
 
 
 export const HeroBanner = () => {

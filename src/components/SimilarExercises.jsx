@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { Typography, Box, Stack } from '@mui/material';
 
-import HorizontalScrollbar from './HorizontalScrollbar';
-import Loader from './Loader';
+import {HorizontalScrollbar} from './HorizontalScrollbar';
+import {Loader} from './Loader';
 
 export const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
   <Box sx={{ mt: { lg: '100px', xs: '0px' } }}>

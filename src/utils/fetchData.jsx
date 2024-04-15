@@ -1,9 +1,10 @@
+const apiKey = 'dd3ebdf237msh882fef01d850f69p1f1749jsne06110e2b07c';
+
 export const exerciseOptions = {
   method: 'GET',
   headers: {
     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
-    // eslint-disable-next-line no-undef
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Key': apiKey,
   },
 };
 
@@ -11,8 +12,7 @@ export const youtubeOptions = {
   method: 'GET',
   headers: {
     'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-    // eslint-disable-next-line no-undef
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Key': apiKey,
   },
 };
 

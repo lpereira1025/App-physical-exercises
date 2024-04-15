@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { Box } from '@mui/icons-material'
+import { Box } from '@mui/material'
 
 import './App.css'
 import { NavBar } from './components/NavBar'

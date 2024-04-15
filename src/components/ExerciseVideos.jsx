@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Typography, Box, Stack } from '@mui/material';
-import Loader from './Loader';
+import {Loader} from './Loader';
 
 export const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
